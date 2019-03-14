@@ -24,7 +24,7 @@ To **log issues**, click <a href="https://github.com/millerhoo/journey4-adwc/iss
 -   Learn how to connect to your new Autonomous Data Warehouse
 
 ## Required Artifacts
-
+## (Note a cloud remote desktop environment has been provided to you for this workshop)
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 
 -   Oracle SQL Developer 18.3 or later (see <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html" target="_blank">Oracle Technology Network download site</a>)
