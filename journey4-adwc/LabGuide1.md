@@ -39,50 +39,37 @@ To **log issues**, click <a href="https://github.com/millerhoo/journey4-adwc/iss
 In this section you will be provisioning an ADW instance using the cloud console.
 
 
-#### **STEP 1: Sign in to Oracle Cloud**
+#### **STEP 1: Sign in to Oracle Cloud (Account provided by instructor)**
 
--   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
+-   Go to [console.us-ashburn-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com), click **Change tenant** if it is not pointing to **apacodp01**.
 
-![](./images/100/Picture100-2.png)
+![](./images/100/Picture100-O1.png)
 
--   Enter your **Cloud Account Name** and click next.
+-   Enter your **Cloud Tenant** as **apacodpt01** and click next.
 
-![](./images/100/Picture100-3.png)
+![](./images/100/Picture100-O2.png)
 
--   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
+-   Enter your provided Oracle Cloud Infrastructure **username** and **password**, and click **Sign In**.
 
-![](./images/100/Picture100-4.png)
+![](./images/100/Picture100-O3.png)
 
 #### **STEP 2: Create an ADW Instance**
 
--   Once you are logged in, you are taken to the cloud services dashboard where you can see all the services available to you. Click the **Autonomous Database** tile.
+-   Once you are logged in, you are taken to the cloud services dashboard where you can see all the services available to you. Click the **Create a Database** tile.
 
-*Note:* You may also access your Autonomous Data Warehouse service via the pull out menu on the top left of the page, or by using Customize Dashboard to add the service to your dashboard.
+*Note:* You may also access your Autonomous Data Warehouse service via the pull out menu on the top left of the page.
 
-![](./images/100/Picture100-36.png)
+![](./images/100/Picture100-O4.png)
 
-- Select the Data Warehousing option and click **Create Autonomous Data Warehouse Instance**.
+- Select the **Autonomous Data Warehouse** option.
 
-![](images/100/LabGuide1-39fb4a5b.png)
+![](./images/100/Picture100-O5.png)
 
-- Select the root compartment, or another compartment of your choice where you will create your new ADW instance. If you want to create a new Compartment or learn more, click <a href="https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#three" target="_blank">here</a>.
-*Note* - Avoid the use of the ManagedCompartmentforPaaS compartment as this is an Oracle default used for Oracle Platform Services.
-
-![](./images/100/Compartment.jpg)
-
-- You can see your current default **region** in the top, right hand corner of the page. Go ahead and select a different available region such as **Phoenix** or **Toronto**.
-
-![](./images/100/Region.jpg)
-
--  Click on **Create Autonomous Data Warehouse** button to start the instance creation process.
-
-![](./images/100/Picture100-23.jpeg)
-
--  This will bring up the Create Autonomous Data Warehouse screen where you will specify the configurations of the instance. Select the root compartment, or another compartment of your choice.
+- Next, select the root compartment, or another compartment of your choice.
 
 ![](./images/100/Picture100-26.jpg)
 
--  Specify a memorable display name for the instance. Also specify your database's name, for this lab use ADWFINANCE.
+-  Specify a memorable display name for the instance. Also specify your database's name, for this lab use **ADW_Workshop_user_??**. Where **??** will follow your assisgned user number (e.g. ADW_workshop_user_01)
 
 ![](./images/100/Picture100-27.jpeg)
 
