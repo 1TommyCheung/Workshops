@@ -1,6 +1,8 @@
 <table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag.png)](README.md)
 
 Last Updated:<br>October 19, 2018
+(This version is forked by Tommy Cheung, Oracle Digital Prime, please refer to the official version below)
+
 </td>
 <td class="td-banner">
 # Getting Started with Autonomous Data Warehouse                                    
